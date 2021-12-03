@@ -7,8 +7,8 @@
   <a href="#" target="_blank">
     <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
   </a>
-  <a href="https://twitter.com/clint\_mathews\_" target="_blank">
-    <img alt="Twitter: clint\_mathews\_" src="https://img.shields.io/twitter/follow/clint\_mathews\_.svg?style=social" />
+  <a href="https://twitter.com/clint_mathews_" target="_blank">
+    <img alt="Twitter: clint\_mathews\_" src="https://img.shields.io/twitter/follow/clint_mathews_.svg?style=social" />
   </a>
 </p>
 
