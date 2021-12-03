@@ -60,7 +60,7 @@ app.post('/messages', async (req, res) => {
     try {
         var message = new Message(req.body);
         var savedMessages = await message.save();
-        // Get data based on message
+        // Check data for bad message
         var censord = await Message.findOne({ message: 'badWord' });
         if (censord) {
             // Message found and removing
