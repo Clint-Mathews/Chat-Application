@@ -67,6 +67,7 @@ app.post('/messages', async (req, res) => {
             console.log('Censored word found', censord);
             await Message.remove({ _id: censord.id },);
         } else {
+            // Emit to html page to update the message list
             io.emit('message', req.body);
         }
         res.sendStatus(200);
