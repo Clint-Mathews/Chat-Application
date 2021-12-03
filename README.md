@@ -12,33 +12,34 @@
   </a>
 </p>
 
-> Demo Chat Application using Node.js and Socket.io. Added unit tests using jasmine. To run the application, use nodemon and a free account of mongodb from atlas.
+> Demo Chat Application using Node.js and Socket.io.
 
 ### 🏠 [Homepage](https://github.com/Clint-Mathews/Chat-Application)
 
 ## Install
 
 ```sh
-npm i -(To intall the required dependencies) and use nodemon server.js to run from root folder
+To intall the required dependencies : npm i
 ```
 
 ## Usage
 
 ```sh
-nodemon server.js to run the server. Use mongodb connection for your created/existing atlas account
+To run the server : nodemon server.js (From root folder)
+Use mongodb connection for your created/existing atlas account.
 ```
 
 ## Run tests
 
 ```sh
-npm test to run tests
+To run tests : npm test
 ```
 
 ## Author
 
 👤 **Clint Mathews**
 
-* Twitter: [@clint\_mathews\_](https://twitter.com/clint\_mathews\_)
+* Twitter: [@clint\_mathews\_](https://twitter.com/clint_mathews_)
 * Github: [@Clint-Mathews](https://github.com/Clint-Mathews)
 * LinkedIn: [@clint-mathews](https://linkedin.com/in/clint-mathews)
 
