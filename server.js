@@ -9,7 +9,7 @@ app.use(express.static(__dirname));
 // Prase body data
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : false}));
-const uri = "mongodb+srv://clintmathews:284546@cluster0.bdaop.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "mongodb+srv://username:password@cluster0.bdaop.mongodb.net/DatabaseName?retryWrites=true&w=majority";
 mongoose.Promise = Promise
 var Message = mongoose.model('Message',{
     name: String,
@@ -87,18 +87,20 @@ app.get('/messages/:user',(req, res)=>{
     });
 });
 
-async function myFunction() {
-    var list = await GetMessages();
-    console.log(list);
-}
+// Practice Functions
+
+// async function myFunction() {
+//     var list = await GetMessages();
+//     console.log(list);
+// }
 
 
-async function myFunction() {
-    try {
-        var response = await request();
-        console.log(response);
-    } catch (error) {
-        console.log(error);
-    }
+// async function myFunction() {
+//     try {
+//         var response = await request();
+//         console.log(response);
+//     } catch (error) {
+//         console.log(error);
+//     }
 
-}
+// }
